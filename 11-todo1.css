@@ -1,0 +1,46 @@
+.add{
+    padding: 12px;
+    width: 6rem;
+    background: rgb(36, 182, 20);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    height: 3rem;
+}
+input{
+    padding: 10px;
+    width: 14rem;
+}
+.delete{
+    padding: 12px;
+    width: 6rem;
+    background: rgb(167, 14, 14);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    height:3rem;
+}
+   
+.todo-grid{
+    display: grid;
+    grid-template-columns: 15rem 15rem 13rem ;
+   column-gap: 10px;
+   row-gap: 10px;
+   margin-top: 1rem;
+}
+.todo-text{
+    font-family: 'Poppins', sans-serif;
+  max-width: 14rem;       /* adjust width as needed */
+  word-wrap: break-word;  /* breaks long words */
+  overflow-wrap: break-word;
+  white-space: normal;    /* ensures text goes to next line */
+border: 2px solid rgb(203, 187, 187);
+background-color: antiquewhite;
+/* shape-outside: margin-box; */
+padding: 2px;
+
+}
+.head{
+    font-size: 20px;
+    font-weight: 900;
+}
